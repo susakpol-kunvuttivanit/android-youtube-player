@@ -27,7 +27,7 @@ class YouTubePlayersManager(
         private val youtubePlayerView: YouTubePlayerView, chromecastControls: View,
         private val chromecastPlayerListener: YouTubePlayerListener) : ChromecastConnectionListener {
 
-    private val nextVideoButton = chromecastControls.findViewById<Button>(R.id.next_video_button)
+    private val nextVideoButton =  chromecastControls.findViewById<Button>(R.id.next_video_button)
 
     val chromecastUIController = SimpleChromecastUIController(chromecastControls)
 
